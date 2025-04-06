@@ -1,0 +1,322 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+h1, h2, h3, h4 {
+  color: red;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#home {
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    color: #fff;
+  }
+  
+
+#home h1 {
+  font-size: 48px;
+}
+
+
+#welcome p {
+    font-size: 16px; 
+    line-height: 1.5; 
+  }
+  
+
+
+#featured-dishes {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+#featured-dishes ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#featured-dishes li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+#featured-dishes img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  #featured-dishes img:hover {
+    transform: scale(1.1) rotate(5deg);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }  
+
+
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #444;
+}
+
+#menu {
+    /* Section styles */
+    background-color: #f7f7f7; /* Light gray background */
+    padding: 40px; /* Add some breathing room */
+    text-align: center; /* Center the text */
+  }
+  
+  #menu h2 {
+    /* Heading styles */
+    font-size: 36px; /* Larger font size */
+    font-weight: bold; /* Bold font weight */
+    margin-bottom: 20px; /* Add some space between heading and content */
+  }
+  
+  #menu ul {
+    /* List styles */
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Make the list items display in a row */
+    flex-wrap: wrap; /* Wrap the list items to the next line */
+    justify-content: center; /* Center the list items */
+  }
+  
+  #menu li {
+    /* List item styles */
+    margin: 20px; /* Add some space between list items */
+    width: calc(33.33% - 40px); /* Make the list items take up a third of the width */
+  }
+  
+  #menu img {
+    /* Image styles */
+    width: 150px; /* Set the width to 150px */
+    height: 150px; /* Set the height to 150px */
+    object-fit: cover; /* Ensure the image covers the entire area */
+    border-radius: 10px; /* Add a slight curve to the corners */
+    transition: transform 0.3s ease-in-out; /* Add a transition effect */
+  }
+  
+  
+  #menu img:hover {
+    /* Image styles on hover */
+    transform: scale(1.1) rotate(5deg); /* Scale and rotate the image */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+  }
+  
+  #menu h3 {
+    /* Subheading styles */
+    font-size: 24px; /* Medium font size */
+    font-weight: bold; /* Bold font weight */
+    margin-bottom: 10px; /* Add some space between subheading and content */
+  }
+  
+  #menu h4 {
+    /* Item name styles */
+    font-size: 18px; /* Standard font size */
+    font-weight: bold; /* Bold font weight */
+    margin-bottom: 5px; /* Add some space between item name and description */
+  }
+  
+  #menu p {
+    /* Description and price styles */
+    font-size: 16px; /* Small font size */
+    color: #666; /* Dark gray text color */
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    #menu li {
+      width: calc(50% - 40px); /* Make the list items take up half the width on smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    #menu li {
+      width: 100%; /* Make the list items take up the full width on even smaller screens */
+    }
+  }
+  
+  
+
+/* About Us Page Styles */
+#about {
+    /* Section styles */
+    background-color: #f7f7f7; /* Light gray background */
+    padding: 40px; /* Add some breathing room */
+    text-align: center; /* Center the text */
+  }
+  
+  #about h2 {
+    /* Heading styles */
+    font-size: 36px; /* Larger font size */
+    font-weight: bold; /* Bold font weight */
+    margin-bottom: 20px; /* Add some space between heading and content */
+  }
+  
+  #about p {
+    /* Paragraph styles */
+    font-size: 18px; /* Standard font size */
+    color: #666; /* Dark gray text color */
+    margin-bottom: 20px; /* Add some space between paragraphs */
+  }
+  
+  #about ul {
+    /* List styles */
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+  }
+  
+  #about li {
+    /* List item styles */
+    margin-bottom: 20px; /* Add some space between list items */
+  }
+  
+  #about img {
+    /* Image styles */
+    width: 150px; /* Set the image width */
+    height: 150px; /* Set the image height */
+    object-fit: cover; /* Ensure the image covers the entire area */
+    border-radius: 50%; /* Make the image circular */
+    margin: 20px auto; /* Add some space around the image */
+  }
+  
+  #about h3 {
+    /* Subheading styles */
+    font-size: 24px; /* Medium font size */
+    font-weight: bold; /* Bold font weight */
+    margin-bottom: 10px; /* Add some space between subheading and content */
+  }
+  
+
+  #footer {
+    /* Footer styles */
+    background-color: #333; /* Dark gray background */
+    color: #fff; /* White text color */
+    padding: 40px; /* Add some breathing room */
+    text-align: center; /* Center the text */
+  }
+  
+  .footer-container {
+    /* Footer container styles */
+    display: flex; /* Make the footer sections display in a row */
+    flex-wrap: wrap; /* Wrap the footer sections to the next line */
+    justify-content: center; /* Center the footer sections */
+  }
+  
+  .footer-section {
+    /* Footer section styles */
+    margin: 20px; /* Add some space between footer sections */
+    width: calc(33.33% - 40px); /* Make the footer sections take up a third of the width */
+  }
+  
+  .footer-section h3 {
+    /* Footer section heading styles */
+    font-size: 18px; /* Medium font size */
+    font-weight: bold; /* Bold font weight */
+    margin-bottom: 10px; /* Add some space between heading and content */
+  }
+  
+  .footer-section p {
+    /* Footer section paragraph styles */
+    font-size: 16px; /* Small font size */
+    margin-bottom: 10px; /* Add some space between paragraphs */
+  }
+  
+  .footer-section ul {
+    /* Footer section list styles */
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .footer-section li {
+    /* Footer section list item styles */
+    margin-bottom: 10px; /* Add some space between list items */
+  }
+  
+  .footer-section a {
+    /* Footer section link styles */
+    color: #fff; /* White text color */
+    text-decoration: none; /* Remove default link styles */
+  }
+  
+  .copyright {
+    /* Copyright styles */
+    font-size: 14px; /* Small font size */
+    margin-top: 20px; /* Add some space between copyright and footer sections */
+  }
+  
